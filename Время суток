@@ -3,17 +3,13 @@ package org.example;
 public class Untitled {
     public static void main(String[] args) {
         int currentHour = 1;
-        if (currentHour >= 5 && currentHour < 11){
+        if (currentHour >= 5 && currentHour < 11) {
             System.out.println("Утро");
-        }
-        else if (currentHour >= 11 && currentHour < 17){
+        } else if (currentHour >= 11 && currentHour < 17) {
             System.out.println("День");
-        }
-        else if (currentHour >= 17 && currentHour < 23){
+        } else if (currentHour >= 17 && currentHour < 23) {
             System.out.println("Вечер");
-        }
-        else{
-            System.out.println("Ночь");
-        }
+        } else System.out.println("Ночь"); {
     }
+ }
 }
