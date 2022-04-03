@@ -1,0 +1,21 @@
+package org.example;
+
+public class Untitled {
+    public static void main(String[] args) {
+        int currentHour = 1;
+
+        if (currentHour < 0) {
+            System.out.println("Нужно ввести время суток правильно");
+        } else if (currentHour > 23) {
+            System.out.println("Следует вернуться с другой планеты на Землю");
+        } else if (currentHour >= 5 && currentHour < 11) {
+            System.out.println("Утро");
+        } else if (currentHour >= 11 && currentHour < 17) {
+            System.out.println("День");
+        } else if (currentHour >= 17 && currentHour < 23) {
+            System.out.println("Вечер");
+        } else System.out.println("Ночь");
+        {
+        }
+    }
+}
