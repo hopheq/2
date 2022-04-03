@@ -1,0 +1,29 @@
+package org.example;
+
+public class Untitled {
+    public static void main(String[] args) {
+        int day = 5;
+        int time = 19;
+        boolean weekend = day < 6;
+
+        if (weekend) {
+            if (time < 8) {
+                System.out.println("Доброе утро");
+            } else if (time > 8) {
+                System.out.println("Все пропало ты проспал!");
+            } else if (time < 11)
+                System.out.println("Включай почту, составляй письмо, что сегодня берёшь отгулВключай почту, составляй письмо, что сегодня берёшь отгул");
+            }
+        } else if (time < 12) {
+        System.out.println("Доброе утро!");
+        } else if (time < 16) {
+        System.out.println("Лучше поспать еще")
+        } else if (time < 18) {
+        System.out.println("Вставай, тебя ждёт недоигранный Ведьмак!");
+        } else if (time < 23) {
+        System.out.println("Дааа, с режимом надо что-то делать!");
+        }
+
+
+    }
+ }
