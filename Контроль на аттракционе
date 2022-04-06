@@ -1,0 +1,16 @@
+package org.example;
+
+public class Untitled {
+    public static void main(String[] args) {
+        final boolean withparents = true;
+        final int height = 164;
+        final boolean check = height > 159;
+        if (withparents || check) {
+            System.out.println("Ребенку можно на аттракцион");
+        } else {
+            System.out.println( "Ребенку нельзя на аттракцион");
+        }
+    }
+
+
+    }
