@@ -1,0 +1,23 @@
+package org.example;
+
+public class Untitled {
+    public static void main(String[] args) {
+        final int calories = 1400;
+        int caloriestoday = 500;
+        final int chocolate = 340;
+        final int porridge = 250;
+        final int salo = 500;
+        final int remainingcalories = calories - caloriestoday;
+        if (remainingcalories >= chocolate) {
+            System.out.println("Можно шоколад");
+        } else if (remainingcalories >= porridge) {
+            System.out.println("Можно каши");
+        } else if (remainingcalories >= salo) {
+            System.out.println("Можно кусочек сало");
+        } else {
+            System.out.println("лимит каллорий на сегодня исчерпан");
+        }
+    }
+
+
+    }
