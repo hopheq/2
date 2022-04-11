@@ -1,0 +1,26 @@
+package org.example;
+
+public class Untitled {
+    public static void main(String[] args) {
+        final int offer1 = 140000;
+        final int offer2 = 180000;
+        final int time1 = 4;
+        final int time2 = 9;
+        final int workTime = 8;
+        final int workDay = 22;
+        final int workDayOffer1 = offer1 / workDay / (workTime+time1);
+        System.out.println("workDayOffer1 = " + workDayOffer1);
+        final int workDayOffer2 = offer2 / workDay / (workTime+time2);
+        System.out.println("workDayOffer2 = " + workDayOffer2);
+
+        if (workDayOffer2 > workDayOffer1) {
+            System.out.println("Выбрать 2 оффер");
+        } else {
+            System.out.println("Выбрать оффер 1");
+
+
+    }
+
+
+}
+}
