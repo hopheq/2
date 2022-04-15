@@ -1,0 +1,27 @@
+package org.example;
+
+public class Untitled {
+    public static void main(String[] args) {
+        final int Jedi = 2;
+        final int Sith = 2;
+        final boolean VictoryForJedi = Sith > Jedi || Sith < Jedi;
+        final boolean JediObiWan = false;
+        final boolean SithDarthMaul= false;
+        final boolean SithPalpatine = false;
+        final boolean Name = JediObiWan || SithDarthMaul|| SithPalpatine;
+        if (Name) {
+            if (SithPalpatine) {
+                System.out.println("Выигрывает всегда");
+            } else if (JediObiWan && SithDarthMaul) {
+                System.out.println("Оби Ван выиграет у Дарта Мола");
+            } else if (JediObiWan || SithDarthMaul && VictoryForJedi) {
+                System.out.println("Джедай победит стиха");
+            }
+        } else if (VictoryForJedi) {
+            System.out.println("Джедай победит стиха");
+        } else if {
+            System.out.println("Стих побеждает джедая");
+        }
+
+    }
+}
